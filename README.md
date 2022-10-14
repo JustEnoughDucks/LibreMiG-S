@@ -38,7 +38,7 @@
   <h3 align="center">LibreMiG-S</h3>
 
   <p align="center">
-    Open Source Joystick/ Open Source Flightstick that combines the Olukelu Gimbal with a MiG-31 inspired Flightstick designed for Star Citizen or space simulators
+    Open Source Joystick/Open Source Flightstick that combines the Olukelu Gimbal with a MiG-31 inspired Flightstick designed for Star Citizen or space simulators
     <!-- <br />
     <a href="https://github.com/JustEnoughDucks/LibreMiG-S"><strong>Explore the docs »</strong></a>
     <br /> -->
@@ -86,9 +86,9 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-I saw the few options for open-source flight sticks out there. Commercial options are exceedingly expensive. I strive to build a full-featured and high-quality Flightstick with a target BOM cost from 150-200€.
+I saw few options for open-source flight sticks out there. Commercial options are exceedingly expensive. I strive to build a full-featured and high-quality Flightstick with a target BOM cost from 150-200€. It is not meant to be the cheapest joystick, but it does aim to be the most attractive option for open-source and DIY enthusiasts.
 
-Not only this, but BOMs, parts lists, and documentation for various gimbals and 3D printed joysticks I will included all of the necessary parts lists are sparse at best. I aim to include an extremely comprehensive requirements list, drop-in replacement part list, etc... so that this will be as accessible to everyone who has interest in building their own stick.
+Not only this, but I will include BOMs, parts lists, and documentation for various gimbals and 3D printed joysticks. In most open-source sticks, all of the necessary parts lists are sparse at best. I aim to include an extremely comprehensive requirements list, drop-in replacement part list, etc... so that this will be as accessible to everyone who has interest in building their own stick.
 
 This is very open to all contributions and improvements from the community.
 
@@ -114,7 +114,7 @@ This is very open to all contributions and improvements from the community.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This process is hopefully as painless as possible. It will take hours of printing, some of soldering, assembling, and testing to make sure everything works. In order to have the most quality product as possible and respect the supply chain issues everyone has, I chose the cheapest, most available chip that is also easy to solder onto 
+This process is hopefully as painless as possible. It will take hours of printing, some of soldering, assembling, and testing to make sure everything works. In order to have the most quality product as possible and respect the supply chain issues everyone has, I chose the cheapest, most available chip that is also easy to solder onto the PCB. Everything can be assembled and disassembled.
 
 ### Prerequisites
 <!--
