@@ -88,7 +88,7 @@
 
 I saw few options for open-source flight sticks out there. Commercial options are exceedingly expensive. I strive to build a full-featured and high-quality Flightstick with a target BOM cost from 150-200€. It is not meant to be the cheapest joystick, but it does aim to be the most attractive option for open-source and DIY enthusiasts.
 
-Not only this, but I will include BOMs, parts lists, and documentation for various gimbals and 3D printed joysticks. In most open-source sticks, all of the necessary parts lists are sparse at best. I aim to include an extremely comprehensive requirements list, drop-in replacement part list, etc... so that this will be as accessible to everyone who has interest in building their own stick.
+BOMs, parts lists, and documentation for various gimbals and 3D printed joysticks are sparse at best. I aim to include an extremely comprehensive requirements list, drop-in replacement part list, etc... so that this will be as accessible to everyone who has interest in building their own stick.
 
 This is very open to all contributions and improvements from the community.
 
