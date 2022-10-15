@@ -117,13 +117,19 @@ This is very open to all contributions and improvements from the community.
 This process is hopefully as painless as possible. It will take hours of printing, some of soldering, assembling, and testing to make sure everything works. In order to have the most quality product as possible and respect the supply chain issues everyone has, I chose the cheapest, most available chip that is also easy to solder onto the PCB. Everything can be assembled and disassembled.
 
 ### Prerequisites
-<!--
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+
+This is a very general list of the materials you will need to assemble and program the stick. All BOM items are assumed to be ordered and received.
+* 3D Printer
   ```sh
   npm install npm@latest -g
   ```
--->
+* Soldering Iron/Soldering Station + solder + flux paste/pen
+* Hex key drivers and philips 0 screwdriver
+* Mechanical and electrical BOM materials
+* Manufactured PCBs
+* USB-C cable
+* PC running Linux or Windows
+  
 ### Installation
 
 <!-- 1. Get a free API Key at [https://example.com](https://example.com)
@@ -158,6 +164,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_ --
 <!-- ROADMAP -->
 ## Roadmap
 
+- [ ] 3D printed shells and parts designed
 - [ ] 3D printed parts fully printable and assemblable
 - [ ] PCBs made in single panel and multi-board configurations
 - [ ] Windows and Linux compatible firmware
