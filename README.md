@@ -120,9 +120,10 @@ This process is hopefully as painless as possible. It will take hours of printin
 
 This is a very general list of the materials you will need to assemble and program the stick. All BOM items are assumed to be ordered and received.
 * 3D Printer
-  ```sh
+<!--  ```sh
   npm install npm@latest -g
   ```
+-->
 * Soldering Iron/Soldering Station + solder + flux paste/pen
 * Hex key drivers and philips 0 screwdriver
 * Mechanical and electrical BOM materials
