@@ -116,20 +116,25 @@ This is very open to all contributions and improvements from the community.
 
 This process is hopefully as painless as possible. It will take hours of printing, some of soldering, assembling, and testing to make sure everything works. In order to have the most quality product as possible and respect the supply chain issues everyone has, I chose the cheapest, most available chip that is also easy to solder onto the PCB. Everything can be assembled and disassembled.
 
+I also added alternate electronics headers so that one can use an [arduino pro micro](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/hardware-overview-pro-micro) in place of the USB, MCU, and power components if you don't like soldering. The upside to this is that I may be able to make a firmware profile compatible with MMJOY2 in the future.
+
 ### Prerequisites
 
 This is a very general list of the materials you will need to assemble and program the stick. All BOM items are assumed to be ordered and received.
-* 3D Printer
+
 <!--  ```sh
   npm install npm@latest -g
   ```
 -->
+* 3D Printer
 * Soldering Iron/Soldering Station + solder + flux paste/pen
 * Hex key drivers and philips 0 screwdriver
 * Mechanical and electrical BOM materials
 * Manufactured PCBs
+* ST-Link V2 or STM32F0 disovery board + jumpers for programming MCU
 * USB-C cable
 * PC running Linux or Windows
+* STM32CubeProgrammer
   
 ### Installation
 
@@ -177,7 +182,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_ --
     - [ ] Video
 - [ ] BOM for electronics
 - [ ] BOM for mechanics
+- [ ] Cost estimates for 1 american, 1 european, and 1 chinese manufacturers
 - [ ] Documentation
+- [ ] Possibly selling electronics kits or assembed kits?
 
 
 
