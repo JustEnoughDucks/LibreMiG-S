@@ -3318,7 +3318,7 @@
     (uuid 371163dd-99c9-40c3-8a54-cc9e3e3d1aed)
     (property "Reference" "J4" (id 0) (at 33.02 81.28 0))
     (property "Value" "Conn_01x05" (id 1) (at 33.02 83.82 0))
-    (property "Footprint" "Connector_JST:JST_PH_S5B-PH-K_1x05_P2.00mm_Horizontal" (id 2) (at 33.02 92.71 0)
+    (property "Footprint" "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" (id 2) (at 33.02 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 33.02 92.71 0)
