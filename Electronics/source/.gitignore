@@ -1,0 +1,5 @@
+# ignore ALL .step files
+*.step
+
+# ignore ALL files in ANY directory named temp
+libre-MIG-backupss
