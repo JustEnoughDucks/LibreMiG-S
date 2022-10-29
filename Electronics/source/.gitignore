@@ -2,4 +2,4 @@
 *.step
 
 # ignore ALL files in ANY directory named temp
-libre-MIG-backupss
+libre-MIG-backups/
