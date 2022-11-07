@@ -1046,7 +1046,7 @@
       (reference "JP2") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
     )
     (path "/63eae4e9-3fc1-4bb7-be95-8df2a256a497/6f1acc0f-0f83-44d7-aa32-84d0a5c6b252"
-      (reference "P1") (unit 1) (value "USB_C_Plug_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_GCT_USB4085")
+      (reference "P1") (unit 1) (value "USB_C_Plug_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
     (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/2c70af99-5c38-4743-a52f-be90311ddc9a"
       (reference "R1") (unit 1) (value "27") (footprint "Resistor_SMD:R_0805_2012Metric")
