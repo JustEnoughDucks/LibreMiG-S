@@ -1199,7 +1199,7 @@
       (reference "VR1") (unit 1) (value "Joystick_Pot") (footprint "Personal:RKJXV1220")
     )
     (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/e90e0691-2848-4cb7-ac88-8b8a089c13b6"
-      (reference "Y1") (unit 1) (value "ABL-32.000MHZ-B2") (footprint "Crystal:Crystal_HC49-U_Vertical")
+      (reference "Y1") (unit 1) (value "ABL-8.000MHZ-B2") (footprint "Crystal:Crystal_HC49-U_Vertical")
     )
   )
 )
