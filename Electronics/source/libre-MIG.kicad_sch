@@ -616,14 +616,8 @@
     (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/67da7759-4915-4262-8f38-b466a407b30b"
       (reference "#PWR0133") (unit 1) (value "GND") (footprint "")
     )
-    (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/e652b0e2-a4e4-4c34-a745-747b933af94f"
-      (reference "#PWR0134") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/3fca7812-25d6-4777-bce0-4807ecd26b37"
+    (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/0e74c2da-a949-4217-81bf-06dd027ce672"
       (reference "#PWR0135") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/87ecf9e6-0e60-4bb9-b26c-36ad7f0712f9"
-      (reference "#PWR0136") (unit 1) (value "+5V") (footprint "")
     )
     (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/be0c40ec-5e97-4298-85d6-9663214c019b"
       (reference "#PWR0137") (unit 1) (value "GND") (footprint "")
@@ -832,8 +826,8 @@
     (path "/a97451db-3b1c-4acc-b000-6e112f49afad/382774aa-c8fe-4db5-a38d-27bc6811965b"
       (reference "#PWR0206") (unit 1) (value "GND") (footprint "")
     )
-    (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/7caa0bbf-73fa-4d27-b707-5d404e746447"
-      (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/eaa13d45-13a1-4cfd-a112-734de37db145"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/2290478f-c8b2-4c71-bdd9-ac5c9da9df64"
       (reference "C2") (unit 1) (value "47pF") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -1039,6 +1033,9 @@
     (path "/66a4d3d0-9c3a-4d3a-a0eb-a9d08a55c439/b42f2acb-c651-47f7-b128-db2244e74ed8"
       (reference "J21") (unit 1) (value "Conn_01x08") (footprint "Connector_JST:JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical")
     )
+    (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/5880b663-2316-485a-8736-cb260d089ded"
+      (reference "J22") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+    )
     (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/6e412e1a-f0f8-4d36-acc4-cd9a6394a261"
       (reference "JP1") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
     )
@@ -1177,17 +1174,14 @@
     (path "/9c64efcd-ac9e-4d2e-bb8a-143dd3be6221/08778a47-7e4b-4250-8e31-ea906910e298"
       (reference "TP10") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
-    (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/12ae156a-7490-4f46-9b8a-427b3a172a3e"
-      (reference "U1") (unit 1) (value "STM32F030C8Tx") (footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
+    (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/0ca980df-599f-4ac5-88d1-380d394da8a6"
+      (reference "U1") (unit 1) (value "STM32F072CBTx") (footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
     )
     (path "/9c64efcd-ac9e-4d2e-bb8a-143dd3be6221/c562b6ea-96ff-4ea1-aa4d-c340659db0cc"
       (reference "U2") (unit 1) (value "TCA9535PWR") (footprint "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm")
     )
     (path "/9c64efcd-ac9e-4d2e-bb8a-143dd3be6221/f7882a7f-82c0-4e32-9992-8498c50ce634"
       (reference "U3") (unit 1) (value "TCA9535PWR") (footprint "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm")
-    )
-    (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/71858ba1-42c9-424d-9dc9-a02ddf97978a"
-      (reference "U4") (unit 1) (value "FT231XS") (footprint "Package_SO:SSOP-20_3.9x8.7mm_P0.635mm")
     )
     (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/1c90546f-4632-4921-ad8c-28629e186d3a"
       (reference "U5") (unit 1) (value "ADP122AUJZ-3.3-R7 ") (footprint "Package_TO_SOT_SMD:TSOT-23-5")
