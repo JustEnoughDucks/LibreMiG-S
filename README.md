@@ -114,9 +114,9 @@ This is very open to all contributions and improvements from the community.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This process is hopefully as painless as possible. It will take hours of printing, some of soldering, assembling, and testing to make sure everything works. In order to have the most quality product as possible and respect the supply chain issues everyone has, I chose the cheapest, most available chip that is also easy to solder onto the PCB. Everything can be assembled and disassembled.
+This process is hopefully as painless as possible. It will take hours of printing, some of soldering, assembling, and testing to make sure everything works. In order to have the most quality product as possible and respect the supply chain issues everyone has, I chose the cheapest, most available chip that is also easy to solder onto the PCB, but also has integrated USB so you don't need to search for an elusive USB HID FTDI chip. Everything can be assembled and disassembled repeatedly in principle (minimal/no direct screw to print interfaces)
 
-I also added alternate electronics headers so that one can use an [arduino pro micro](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/hardware-overview-pro-micro) in place of the USB, MCU, and power components if you don't like soldering. The upside to this is that I may be able to make a firmware profile compatible with MMJOY2 in the future.
+I also added alternate electronics headers so that one can use an [STM32 Bluepill](https://microcontrollerslab.com/stm32f103c8t6-blue-pill-pinout-peripherals-programming-features/) in place of the USB, MCU, and power components if you don't like soldering. The upside to this is that I may be able to make a firmware profile compatible with MMJOY2 in the future.
 
 ### Prerequisites
 
@@ -170,9 +170,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_ --
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] 3D printed shells and parts designed
+- [X] 3D printed shells and parts designed
 - [ ] 3D printed parts fully printable and assemblable
-- [ ] PCBs made in single panel and multi-board configurations
+- [X] PCBs made in single panel and multi-board configurations
 - [ ] Windows and Linux compatible firmware
     - [ ] Firmware can detect a TM/Virpil grip and fall back into "basic mode"
     - [ ] Drivers if needed
