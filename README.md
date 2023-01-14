@@ -27,7 +27,6 @@
 [![CERN-OHL-v2-S][license-shield]][license-url]
 <!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
 
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -116,7 +115,7 @@ This is very open to all contributions and improvements from the community.
 
 This process is hopefully as painless as possible. It will take hours of printing, some of soldering, assembling, and testing to make sure everything works. In order to have the most quality product as possible and respect the supply chain issues everyone has, I chose the cheapest, most available chip that is also easy to solder onto the PCB, but also has integrated USB so you don't need to search for an elusive USB HID FTDI chip. Everything can be assembled and disassembled repeatedly in principle (minimal/no direct screw to print interfaces)
 
-I also added alternate electronics headers so that one can use an [STM32 Bluepill](https://microcontrollerslab.com/stm32f103c8t6-blue-pill-pinout-peripherals-programming-features/) in place of the USB, MCU, and power components if you don't like soldering. The upside to this is that I may be able to make a firmware profile compatible with MMJOY2 in the future.
+I also added alternate electronics headers so that one can use an [STM32 Bluepill](https://microcontrollerslab.com/stm32f103c8t6-blue-pill-pinout-peripherals-programming-features/) in place of the USB, MCU, and power components if you don't like soldering. The upside to this is that I may be able to make a firmware profile compatible with FreeJoy in the future. I will have to look into compatibility with I2C peripherals in FreeJoy. If one is using the embedded MCU, then it will require the custom firmware. Everything should be plug-and-play with no drivers needed because proper USB descriptors will be developed.
 
 ### Prerequisites
 
@@ -128,13 +127,14 @@ This is a very general list of the materials you will need to assemble and progr
 -->
 * 3D Printer
 * Soldering Iron/Soldering Station + solder + flux paste/pen
-* Hex key drivers and philips 0 screwdriver
+* Microscope for soldering
+* Hex key drivers and philips 0 screwdriver (dependent on your bolt choice)
 * Mechanical and electrical BOM materials
 * Manufactured PCBs
 * ST-Link V2 or STM32F0 disovery board + jumpers for programming MCU
 * USB-C cable
 * PC running Linux or Windows
-* STM32CubeProgrammer
+* STM32CubeProgrammer or PlatformIO on VSCode/Code-OSS
   
 ### Installation
 
@@ -240,8 +240,6 @@ Project Link: [https://github.com/JustEnoughDucks/LibreMiG-S](https://github.com
 * []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
