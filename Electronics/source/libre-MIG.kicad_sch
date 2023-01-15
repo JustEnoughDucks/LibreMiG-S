@@ -1276,6 +1276,12 @@
     (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/0063b57f-b6c1-4492-b6e5-8c083f7f18bf"
       (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
+    (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/dceeab2f-de0b-45e3-8f59-7c1fc15770f7"
+      (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/8cfc7f8e-a9b3-4e1e-932c-5ea296440fa9"
+      (reference "TP4") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
     (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/0ca980df-599f-4ac5-88d1-380d394da8a6"
       (reference "U1") (unit 1) (value "STM32F072CBTx") (footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
     )
