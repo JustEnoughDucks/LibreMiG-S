@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/JustEnoughDucks/LibreMiG-S">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="LibreMig_logo.svg" alt="Logo" width="100" height="100">
   </a>
 
   <h3 align="center">LibreMiG-S</h3>
@@ -83,7 +83,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com)-->
 
 I saw few options for open-source flight sticks out there. Commercial options are exceedingly expensive. I strive to build a full-featured and high-quality Flightstick with a target BOM cost from 150-200€. It is not meant to be the cheapest joystick, but it does aim to be the most attractive option for open-source and DIY enthusiasts.
 
