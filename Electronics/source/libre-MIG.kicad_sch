@@ -877,6 +877,15 @@
     (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/66e35606-d736-42f8-8703-ebc8175aef4c"
       (reference "#PWR0220") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/2379ea7f-06ef-47ee-993b-e6bbdb642cff"
+      (reference "#PWR0221") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/7f435872-151a-48c5-bc41-318d8269196a"
+      (reference "#PWR0222") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/b23ddd9b-1c88-49d0-9c88-9fadfc088443"
+      (reference "#PWR0223") (unit 1) (value "GND") (footprint "")
+    )
     (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/7c472977-0ecc-4734-9dc5-da45084f063f"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
@@ -1027,6 +1036,12 @@
     (path "/63eae4e9-3fc1-4bb7-be95-8df2a256a497/c7c77f15-a636-46f8-ad81-3d677d0006c5"
       (reference "D3") (unit 1) (value "ESD9B5.0ST5G") (footprint "Diode_SMD:D_SOD-923")
     )
+    (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/8f6b4600-64b4-4f36-bfb8-bacaf8751d3d"
+      (reference "D4") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+    )
+    (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/78e51a5b-56e8-44ae-9949-1da5f1847fcc"
+      (reference "D5") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+    )
     (path "/63eae4e9-3fc1-4bb7-be95-8df2a256a497/2f544a76-2729-4be5-953a-66349154370c"
       (reference "FB1") (unit 1) (value "BLM18BA470SZ1D") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -1102,20 +1117,20 @@
     (path "/9c64efcd-ac9e-4d2e-bb8a-143dd3be6221/e9a8af05-b286-4e37-a0bf-5b46a665fd07"
       (reference "J23") (unit 1) (value "Conn_01x03") (footprint "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical")
     )
+    (path "/63eae4e9-3fc1-4bb7-be95-8df2a256a497/1490a9bc-a69a-46dd-90d5-7bf4d382627f"
+      (reference "J24") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
+    )
     (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/6e412e1a-f0f8-4d36-acc4-cd9a6394a261"
       (reference "JP1") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
     )
     (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/23960789-b394-4680-af9f-8030beb8e332"
       (reference "JP2") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
     )
-    (path "/63eae4e9-3fc1-4bb7-be95-8df2a256a497/6f1acc0f-0f83-44d7-aa32-84d0a5c6b252"
-      (reference "P1") (unit 1) (value "USB_C_Plug_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
-    )
     (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/2c70af99-5c38-4743-a52f-be90311ddc9a"
-      (reference "R1") (unit 1) (value "27") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R1") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/903fe610-6165-4732-ac76-59ba95353602"
-      (reference "R2") (unit 1) (value "27") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R2") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/8e49e594-5874-4e44-b331-7c1ce236fcfa/9031f42b-d7ce-4dfa-aed8-de2ae2e457ff"
       (reference "R3") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -1197,6 +1212,12 @@
     )
     (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/ea608c05-a9af-4186-b7ed-0f7ea20a9c14"
       (reference "R29") (unit 1) (value "10k") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/67b6f7e4-b289-4341-909b-2609f3be62ee"
+      (reference "R30") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/fe71ba6b-6245-42a7-bc3a-c19c80b761dd"
+      (reference "R31") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/ad382ab0-49cc-45bf-a30c-92ff58855547/56fff87a-0fd6-4b0c-bd96-e681e5aa226e"
       (reference "RN1") (unit 1) (value "10k") (footprint "Resistor_THT:R_Array_SIP6")
